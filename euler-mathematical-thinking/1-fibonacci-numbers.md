@@ -103,7 +103,7 @@ G_n= F_{n+2}-F_2
 G_n= F_{n+2}-1
 $$   
 
-That is why $G_n= F_{n+2}-1$ is the answer.
+Thus $\boxed{G_n= F_{n+2}-1}$ is the answer.
 
 ---
 
@@ -131,5 +131,33 @@ M_n= L_{n+2}-L_2
 M_n= L_{n+2}-3
 $$
  
-That is why $M_n= L_{n+2}-3$ is the answer.
+Thus, $\boxed{M_n= L_{n+2}-3}$ is the answer.
+
+## PROBLEM 1.11.
+
+To solve $H_n = F_1 + F_3 + F_5 +···+ F_{2n-3} + F_{2n-1}$ You first have to start with 
+
+$$
+F_1 = \cancel{F_2} - F_0
+\\
+F_3 = \cancel{F_4} - \cancel{F_2} 
+\\
+F_5 = \cancel{F_6} - \cancel{F_4}
+\\
+...
+\\
+F_{2n-3} = \cancel{F_{2n-2}} - \cancel{F_{2n-4}} 
+\\
+F_{2n-1} = F_{2n} - \cancel{F_{2n-2}}
+$$
+
+Everything except two terms cancel out!
+
+$$
+H_n= F_{2n}-F_0
+\\
+H_n= F_{2n}-0 = F_{2n}
+$$   
+
+Thus, $\boxed{H_n= F_{2n}}$ is the answer.
 
